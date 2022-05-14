@@ -1,0 +1,291 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   font-family:'open sans';
+   font-size: 18px;
+   box-sizing: border-box;
+}
+h1{
+      margin: 10px 0px 0px 5px;
+}
+h1 a{
+   text-decoration: none;
+   color: hsla(120,90%,20%,1);
+   font-weight: bold;
+   font-size: 30px;
+   text-shadow: 5px 5px 5px hsla(240,55%,55%,0.6);
+   animation-name: couleur;
+   animation-duration:10s;
+   animation-iteration-count: infinite;
+}
+@keyframes couleur{
+    from{color: orange;}
+    20%{color: green;}
+    30%{color: red;}
+    40%{color: blue;}
+    50%{color: purple;}
+    60%{color: #faf}
+    70%{color: #af0}
+    80%{color: yellow;}
+    90%{color: white}
+    100%{color: aqua;}
+}
+h1 a:hover{
+   color: white;
+   text-shadow: 5px 5px 5px hsla(240,82%,55%,0.6);
+}
+header{
+ position: sticky;
+ top: 0px;
+}
+.entete{
+   background: hsla(240,55%,80%,1);
+}
+.entete_gauche,.entete_droite{
+   width: 45%;
+   display: inline-block;
+}
+.entete_droite, ul{
+   list-style-type: none;
+   text-align: right;
+}
+.entete_droite, ul li{
+   display: inline;
+   margin: 0px 10px 0px 0px;
+}
+.entete_droite, ul>li a{
+  text-decoration: none;
+  color:inherit;
+}
+.annonce{
+   background: rgba(055,055,055,0.05);
+   width: 100%;
+   text-align: center;
+   padding: 10px;
+   box-sizing: border-box;
+   color: #fa0;
+   font-size: 30px;
+}
+.annonce h2{
+   font-size: 22px;
+}
+.serch{
+   width: 80%;
+   margin: 0 auto;
+   height:3em;
+   padding:10px 0px;
+}
+#search{
+   color: orange;
+   margin:-6px;
+   padding: 2px;
+   border: 0.3px solid hsla(240,55%,55%,0.6);
+}
+#ev{
+   margin: 0px;
+   background: hsla(20,80%,55%,0.9);
+   width: 100px;
+   padding: 2px;
+   border: 0.3px solid hsla(240,55%,55%,0.6);
+}
+#ev:hover{
+  background: hsla(120,80%,35%,0.5);
+  color: white;
+}
+.citations_auteur_bureau{
+  display: flex;
+  flex-flow: row wrap;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.image_auteur_bureau{
+  width: 20%;
+  flex: 0 0 auto;
+}
+.citation_bureau{
+  width: 70%;
+  flex: 0 0 auto;
+  background: hsla(240,90%,50%,0.5);
+  padding: 20px 20px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.citation{
+  width: 90%;
+  margin: 0 auto;
+  background: hsla(240,90%,50%,0.5);
+  padding:30px 20px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.citation:hover{
+ box-shadow: 15px 15px 15px #aaa;
+}
+.citations_auteur{
+  display: flex;
+  flex-flow: row wrap;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.imag{
+   width: 80%;
+   height: 184px;
+   border-radius: 50%;
+   margin: 0 auto;
+}
+.n-auteur{
+   font-size: 15px;
+   font-family: cursive;
+   color: white;
+}
+#int{
+ width: 100%;
+}
+.debrief{
+ width:50%;
+ margin: 20px auto;
+ 
+}
+.voir{
+  display: block;
+  width: 20%;
+  margin: 10px auto;
+  text-align: center;
+  background: orange;
+  padding: 5px;
+}
+.imagise{
+ width:70%;
+ margin: 0 auto;
+
+}
+.imaga{
+ width: 60%;
+ display: block;
+ margin: 0px  auto;
+}
+.voir a {
+  text-decoration: none;
+}
+.voir a:hover{
+  color: white;
+}
+footer{
+  background: hsla(000,0%,22%,0.9);
+  text-align: center;
+  color: white;
+  padding: 100px 0px;
+  font-size: 7px;
+}
+footer a{
+  text-decoration: none;
+  color: hsla(240,55%,80%,0.6);
+}
+footer a:hover{
+  color: orange;
+}
+.social{
+ color: white;
+}
+.imsocial{
+ display: inline-block;
+ margin: 10px 2.5px;
+}
+/*page de avis.html*/
+.lien{
+ padding: 0px 15px;
+ box-sizing: border-box;
+}
+.lien:hover{
+  background-color: hsla(240,80%,55%,0.6);
+  color: white;
+}
+/*page de preference.html*/
+.div_preference1{
+  width: 100%;
+  padding: 100px;
+  height: 350px;
+  box-sizing: border-box;
+  background: hsla(000,0%,80%,0.2);
+}
+#btn1,#btn2{
+  width: 100px;
+}
+.sombre{
+  background:orange;
+}
+/*page 1*/
+.aller_vers{
+ display: flex;
+ flex-flow: row wrap;
+ text-align: center;
+ justify-content: center;
+}
+.unauteur{
+ flex: 0 0 auto;
+ background: orange;
+ margin: 10px;
+ padding: 5px 15px;
+ border-radius: 10px;
+}
+.unauteur a {
+ text-decoration: none;
+ color: white;
+}
+.unauteur a:hover{
+ color: white;
+}
+/*partie votre avis*/
+.all_partie{
+ background: rgba(255,155,005,0.9);
+ padding:35px;
+}
+.chacun{
+ width:70%;
+ margin: 0 auto;
+}
+.chacun label{
+ display: inline-block;
+ min-width:300px;
+ padding: 20px;
+}
+#votreavis{
+ width: 80%;
+ padding: 30px;
+ margin: 50px auto;
+}
+#name, #mail,#numero{
+ border: 0.3px solid hsla(240,55%,55%,0.6);
+ padding: 0px 15px;
+}
+fieldset{
+ width: 80%;
+ margin: 30px auto;
+ border: 0.1px solid hsla(240,55%,55%,0.5);
+ padding: 20px;
+}
+#envoyer{
+ margin: 10px;
+ width: 100px;
+ border: 0.1px solid hsla(240,55%,55%,0.3);
+ padding: 2px;
+ border-radius: 5px;
+}
+#envoyer:hover{
+ background: rgba(055,155,055,0.8);
+}
+
+/*responsive design*/
+
+@media screen and (max-width:780px){
+ .imagise{
+ width:90%;
+ margin: 0 auto;
+}
+ .imaga{
+   width: 70%;
+   height: 300px;
+ }
+}
